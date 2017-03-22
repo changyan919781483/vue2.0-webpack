@@ -4,7 +4,7 @@ import VueResource from "vue-resource"
 import App from './App.vue'
 Vue.use(VueRouter);
 Vue.use(VueResource)
-const Foo = {template:'<a href="tel:13158098900">拨打电话</a>'};
+const Foo = {template:'<a href="tel:123456">拨打电话</a>'};
 const Bar = {template:'<div id="bar"> <h1>this is bar</h1> <router-view></router-view></div>'};
 const child = {template:'<div>这是路由嵌套</div>'}
 const routes = [
